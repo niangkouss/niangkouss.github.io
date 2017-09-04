@@ -213,9 +213,9 @@ html, body, .main {
     position: absolute;
     top: -2rem;
     right: -2rem;
-    animation: vxMove 5s 2s ease 1 backwards;
-    -webkit-animation: vxMove 5s 2s ease 1 backwards;
-    -moz-animation: vxMove 5s 2s ease 1 backwards;
+    animation: vxMove 5s 2s ease 1 forwards;
+    -webkit-animation: vxMove 5s 2s ease 1 forwards;
+    -moz-animation: vxMove 5s 2s ease 1 forwards;
     z-index: 999;
 }
 .vx{
