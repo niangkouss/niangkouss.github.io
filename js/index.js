@@ -35,7 +35,7 @@ var loadingFn = (function () {
                     window.setTimeout(function () {
                         $loading.remove();
                         starPage.init()
-                    },2000);
+                    },3000);
                 }
             }
         }
