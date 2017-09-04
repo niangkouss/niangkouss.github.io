@@ -472,7 +472,7 @@ html, body, .main {
     background-size: 100% 100%;
     width: 100%;
     height: 5.16rem;
-    bottom: 0.9rem;
+    bottom: -.5rem;
     position: absolute;
     /*初始向下隐藏370px*/
     -webkit-transform: translate(0, 3.7rem);
