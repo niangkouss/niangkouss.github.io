@@ -35,7 +35,7 @@ var loadingFn = (function () {
                     window.setTimeout(function () {
                         $loading.remove();
                         starPage.init()
-                    },3000);
+                    },2000);
                 }
             }
         }
@@ -59,28 +59,28 @@ var starPage = (function () {
 
         function init() {
             // js随机生成流星
-            for (var j=0;j<30;j++) {
+            for (var j=0;j<10;j++) {
                 var newStar = document.createElement("div")
                 newStar.className = "star"
                 newStar.style.top = randomDistance(200, -300) + 'px'
                 newStar.style.left = randomDistance(1300, 100) + 'px'
                 stars.appendChild(newStar)
             }
-            for (var i=0;i<30;i++) {
+            for (var i=0;i<10;i++) {
                 var newStar = document.createElement("div")
                 newStar.className = "star star2"
                 newStar.style.top = randomDistance(200, -300) + 'px'
                 newStar.style.left = randomDistance(1300, 100) + 'px'
                 stars.appendChild(newStar)
             }
-            for (var k=0;k<30;k++) {
+            for (var k=0;k<10;k++) {
                 var newStar = document.createElement("div")
                 newStar.className = "star star3"
                 newStar.style.top = randomDistance(200, -300) + 'px'
                 newStar.style.left = randomDistance(1300, 100) + 'px'
                 stars.appendChild(newStar)
             }
-            for (var z=0;z<30;z++) {
+            for (var z=0;z<10;z++) {
                 var newStar = document.createElement("div")
                 newStar.className = "star star4"
                 newStar.style.top = randomDistance(200, -300) + 'px'
@@ -92,7 +92,7 @@ var starPage = (function () {
             setTimeout(function(){
                 var btn = $('.vx2');
                 btn.css({"display":"block"});
-            },4850);
+            },4900);
 
             $btnVx.singleTap(function () {
                 $messagePage.remove();
