@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="个人简历">
+    <link rel="icon" href="img/sense.jpg" type="image/x-icon">
+</head>
+<!--css-->
+<link rel="stylesheet" href="CSS/reset.min.css">
+<link rel="stylesheet" href="CSS/swiper.min.css">
+<link rel="stylesheet" href="CSS/index.css">
+<!--css-->
+
+<script type="text/javascript">
+    document.documentElement.style.fontSize = document.documentElement.clientWidth/640*100+'px';
+</script>
+<body>
+<!--主体部分-->
+<article class="main">
+    <!--资源加载页-->
+    <section class="loading">
+        <div class="load-head">
+            <h3>廖萍萍个人简历</h3>
+            <span>H5场景交互型简历</span>
+        </div>
+        <div class="progress">
+            <span class="progress-bar"></span>
+        </div>
+    </section>
+    <!--资源加载页-->
+
+    <!--烟花页(引导页)-->
+    <section id="starMessage">
+        <div class="container">
+            <div id="stars">
+                <div class="star" style="top: 0px;left: 500px;"></div>
+                <div class="star star2" style="top: 0px;left: 500px;"></div>
+                <div class="star star3" style="top: 0px;left: 500px;"></div>
+                <div class="star star4" style="top: 0px;left: 500px;"></div>
+            </div>
+            <div class="moon"></div>
+            <div class="vxContainer">
+                <div id="moveVx" class="vx">
+                    <i>1</i>
+                </div>
+                <span class="wei"></span>
+            </div>
+            <div class="vx vx2">
+                <i>1</i>
+                <span>click ></span>
+            </div>
+        </div>
+    </section>
+    <!--烟花页(引导页)-->
+
+    <!--信息发送页-->
+    <section class="msg">
+        <ul>
+            <li class="left">
+                <img src="img/sense.jpg" alt="myselft">
+                <span></span>
+                你好,我意向求职贵公司前端工程师这一职位
+                请允许我做个短暂的自我推荐
+            </li>
+            <li class="left">
+                <img src="img/sense.jpg" alt="myselft">
+                <span></span>
+                我能熟练快速需求文档转静态页面
+                能用jquery,会原生JS封装库。
+            </li>
+            <li class="left">
+                <img src="img/sense.jpg" alt="myselft">
+                <span></span>
+                熟悉nodejs,express框架,数据库mongodb,
+                了解http协议,善用cookie,session等常用技术。
+            </li>
+            <li class="left">
+                <img src="img/sense.jpg" alt="myselft">
+                <span></span>
+                熟悉UI框架bootstrap,移动端的zepto,MVVM框架的react和vue。
+            </li>
+            <li class="left">
+                <img src="img/sense.jpg" alt="myselft">
+                <span></span>
+                在移动端上能熟练制作webApp,了解H5,Canvas,
+                此时此刻的移动端简历就是我的H5交互作品。
+            </li>
+            <li class="left">
+                <img src="img/sense.jpg" alt="myselft">
+                <span></span>
+                以上只是我的一个简短技能说明,
+                可否给我个机会把我自己介绍得更详细些?
+            </li>
+            <li class="right btnMsg">
+                <img src="img/hr.jpg" alt="">
+                <span></span>
+                好,就听你说说
+            </li>
+            <li class="left">
+                <img src="img/sense.jpg" alt="myselft">
+                <span></span>
+                感谢,那来点击魔方吧
+            </li>
+        </ul>
+        <div class="board">
+            <div class="board-txt"></div>
+            <div class="board-btn">发送</div>
+        </div>
+    </section>
+    <!--信息发送页-->
+
+
+    <!--魔方页-->
+    <section class="cube">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+        </ul>
+        <div class="cubeTip">魔方可旋转和点击哦!</div>
+    </section>
+    <!--魔方页-->
+
+    <!--详情页(swiper功能)-->
+    <section class="details" >
+        <div class="detailsReturn"></div>
+        <div class="tipsLeft"></div>
+        <div class="tipsRight"></div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1">
+                    <dl id="maki">
+                        <dt>个人专业水平</dt>
+                        <dd><em>01</em>熟练切图,HTML+CSS(css3)</dd>
+                        <dd><em>02</em>根据需求文档能快速搭建页面</dd>
+                        <dd><em>03</em>熟练Jquery,能用原生JS封装库</dd>
+                        <dd><em>04</em>熟悉Nodejs,能用框架express</dd>
+                        <dd><em>05</em>了解http协议,ajax,cookie,session</dd>
+                        <dd><em>06</em>快速搭建响应式页面(webApp)</dd>
+                        <dd><em>07</em>熟悉H5,了解Canvas,了解ES6</dd>
+                        <dd><em>08</em>熟练使用zepto,less</dd>
+                        <dd><em>09</em>熟悉MVVM框架的react,vue</dd>
+                        <dd><em>10</em>了解数据库mongodb</dd>
+
+                        <dd><em>11</em>熟悉webpack和gulp,babel</dd>
+                        <dd><em>12</em>了解常规设计模式(如Promise模式)</dd>
+                        <dd><em>13</em>在模块化和组件开发中遵循设计规范</dd>
+                    </dl>
+                </div>
+                <div class="swiper-slide slide2" >
+                    <h3>技能点</h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="swiper-slide slide3">
+                            <h2 class="head">个人描述</h2>
+                    <ul>
+                        <li>
+                            <p class="p1">真心热爱代码,熟练掌握前端各种必备知识,已掌握的,我能快速完成,未掌握的,我要求自己一定要掌握</p>
+                        </li>
+                        <li><p class="p2">关注行业最新技术趋势
+                            讨厌固步自封,希望自己能越学越多,再学再多</p></li>
+                        <li><p class="p3">追求技术,享受项目,享受成果
+
+                            目标是成为一专多长的全栈工程师</p></li>
+                        <li>
+                            <p class="p4">对于在职岗位,我会尽力完成公司需求,在使公司成长的同时,也会加强自身,追求愉快合作的同时,双方都能成长</p>
+                        </li>
+                        <li>
+                            <p class="p5">努力没有期限,每一天都是普通的一天,每一天也都是要进步的一天</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="swiper-slide slide4">
+                   <div class="container">
+                       <h2>个人资料</h2>
+                       <p>
+                           姓名:廖萍萍<br/>
+                           性别:女
+                           <br>
+                           民族:汉<br>
+                           年龄:24<br>
+                           毕业学校:广工工业大学
+                       </p>
+
+                       <p>
+                           应聘前端工程师这一职位<br/>
+                       </p>
+                       <p>
+                           QQ:2143900589<br>
+                           邮箱:
+                            <br>
+                            2143900589@qq.com
+                            <br>
+                            cjggzhplay@gmail.com
+                           <br>
+                           tel:15019211408<br>
+                           github:https://github.com/niangkouss
+                       </p>
+
+
+                       <div class="box">
+                           <img src="img/sense.jpg" alt="">
+                       </div>
+                   </div>
+                </div>
+                <div class="swiper-slide slide5">
+                    <div class="container">
+                        <p>本科期间专业成绩班级前十
+                            <br>
+                            获得二等奖学金以及三等奖学金
+                            <br>
+                            英语过六级
+                            <br>
+                        </p>
+                        <p>
+                            2015年8月实习广州星海集成电路基底有限公司
+                            <br>
+                            2016年7月-2017年8月任职惠州万鸿信息技术公司
+                        </p>
+                        <img src="img/ws.jpg" alt="">
+                    </div>
+            </div>
+                <div class="swiper-slide slide6">
+                    <h1>感<br>谢<br>观<br>看</h1>
+                </div>
+
+        </div>
+        </div>
+    </section>
+    <!--详情页-->
+</article>
+<!--主体部分-->
+
+<!--JS-->
+<script src="js/zepto.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/makisu.min.js"></script>
+<script src="js/index.js"></script>
+<!--JS-->
+</body>
+</html>
