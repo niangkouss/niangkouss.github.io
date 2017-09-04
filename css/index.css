@@ -302,8 +302,8 @@ html, body, .main {
 .vx2{
     top: 5rem;
     right: 2rem;
-    -webkit-animation: tada 1s linear infinite;
-    animation: tada 1s linear infinite;
+    -webkit-animation: tada2 1s linear infinite;
+    animation: tada2 1s linear infinite;
     display: none;
     z-index: 9999;
 }
@@ -318,7 +318,7 @@ html, body, .main {
     color: rgba(180, 180, 180, 0.5);
 }
 
-@-webkit-keyframes tada {
+@-webkit-keyframes tada2 {
     from {
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
@@ -345,30 +345,30 @@ html, body, .main {
     }
 }
 
-@keyframes tada {
+@keyframes tada2 {
     from {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
     }
 
     10%, 20% {
-        -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
-        transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        -webkit-transform: scale3d(1,1,1) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -3deg);
     }
 
     30%, 50%, 70%, 90% {
-        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        -webkit-transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, 3deg);
+        transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, 3deg);
     }
 
     40%, 60%, 80% {
-        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        -webkit-transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, -3deg);
     }
 
     to {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
     }
 }
 /*电话接听页*/
