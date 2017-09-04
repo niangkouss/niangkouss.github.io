@@ -1456,7 +1456,7 @@ html, body, .main {
     height: 2.8rem;
     padding: 0.15rem;
     position: absolute;
-    bottom: 2rem;
+    bottom: .5rem;
     left: 50%;
     margin-left: -1.9rem;
 
@@ -2039,7 +2039,7 @@ html, body, .main {
     height: 2.8rem;
     padding: 0.15rem;
     position: absolute;
-    bottom: 2rem;
+    bottom: .5rem;
     left: 50%;
     margin-left: -1.9rem;
     border-radius: 50%;
